@@ -30,9 +30,9 @@ O modelo foi otimizado para lidar com a alta esparsidade dos dados de entrada (9
 
 ## 🚀 Como Executar
 
-Passo 1 - Rode todas as células do Jupyter Notebook 'processamentoDeDados'
-Passo 2 - Confira se o arquivo 'dados_prontos.pt' foi gerado
-Passo 3 - Rode todas as células do Jupyter Notebook 'rgcn'
+1. Execute todas as células do notebook 'processamentoDeDados.ipynb'
+2. Confira se o arquivo 'dados_prontos.pt' foi gerado 
+3. Execute todas as células do notebook 'rgcn.ipynb'
 
 ## 📈 Lições Aprendidas
 Durante o desenvolvimento, enfrentamos e resolvemos desafios comuns em GNNs:
@@ -42,3 +42,9 @@ Muro do 0.69 (Loss Plateau): Resolvido com a inclusão de camadas de normalizaç
 Overfitting: Controlado através da implementação de Dropout e aumento do Weight Decay.
 
 Esparsidade: Tratada com uma camada de projeção inicial para amplificar o sinal químico das drogas.
+
+## 👥 Autores
+
+- Eduardo Oliveira Carvalho
+- Guilherme Ferreira Martins Ramos
+- Lucas Tuon de Matos
